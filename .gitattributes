@@ -1,0 +1,14 @@
+# Normalize line endings
+* text=auto
+
+# Force notebooks to LF
+*.ipynb text eol=lf
+
+# Keep large/binary files safe
+*.csv binary
+*.pkl binary
+*.h5 binary
+*.joblib binary
+
+# Use nbdime for notebook diffs
+*.ipynb diff=jupyternotebook
