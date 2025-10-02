@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+myenv/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Data files (keep small samples if needed, ignore raw CSVs)
+data/*.csv
+!data/sample*.csv   # Example: allow only small samples
+
+# Model files / artifacts
+*.pkl
+*.h5
+*.joblib
+
+# Logs
+*.log
+
+# Conda environments
+*.yml
+*.yaml
+
+# Ignore large submission files (keep only the final one if needed)
+submission/*.csv
