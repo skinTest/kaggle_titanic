@@ -38,3 +38,8 @@ data/*.csv
 
 # Ignore large submission files (keep only the final one if needed)
 submission/*.csv
+
+# Data and model outputs
+data/
+submissions/
+*.csv
